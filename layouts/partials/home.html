@@ -10,7 +10,7 @@
       {{ range sort .}}
         {{ if .icon }}
           <li>
-            <a href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
+            <a href="{{ .url }}" target="_blank" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
               <i class="{{ .icon }}" aria-hidden="true"></i>
             </a>
           </li>
